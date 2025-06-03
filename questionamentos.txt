@@ -1,0 +1,6 @@
+O que acontece se você tentar ler um arquivo que não existe?
+    R: ocorre um erro no processo, uma vez que o arquivo .txt não existe para ser lido
+
+Como poderíamos melhorar esse código usando try-with-resources?
+    R: try (FileInputStream input = new FileInputStream("arquivo.txt"))
+        O recurso é declarado dentro do parênteses do try e automaticamente fechado ao final.
