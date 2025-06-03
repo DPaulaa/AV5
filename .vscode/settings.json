@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "frase",
+        "cliente"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
